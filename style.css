@@ -1,0 +1,153 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #222;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #8b034e;
+    /* custom color */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section layout */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main headings */
+h1 {
+    color: #1f4e79;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+/* Toolkit-specific styles */
+.toolkit-item {
+    margin-bottom: 40px;
+}
+
+.toolkit-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #00264d;
+}
+
+.toolkit-item img {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Download button links */
+.toolkit-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #004080;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.toolkit-item a:hover {
+    background-color: #004080;
+    color: white;
+}
+
+/* Team Communication Section */
+.communication-section {
+    background-color: #f5f9ff;
+    padding: 30px;
+    margin-top: 30px;
+    border-top: 3px solid #0057a3;
+    border-radius: 8px;
+}
+
+.communication-section h2 {
+    font-size: 2em;
+    color: #003c74;
+    margin-bottom: 20px;
+}
+
+.content-block {
+    margin-bottom: 25px;
+}
+
+.content-block h3 {
+    font-size: 1.4em;
+    color: #0057a3;
+    margin-bottom: 10px;
+}
+
+.content-block p {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+.content-block pre {
+    background-color: #eef4fb;
+    padding: 15px;
+    border-left: 4px solid #007acc;
+    white-space: pre-wrap;
+    overflow-x: auto;
+    font-size: 0.95em;
+    border-radius: 5px;
+}
+
+.content-block strong {
+    color: #0057a3;
+}
+
+.content-block em {
+    color: #333;
+    font-style: italic;
+}
+
+/* Buttons */
+button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
